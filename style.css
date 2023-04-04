@@ -1,0 +1,178 @@
+body {
+  background-color: aliceblue;
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.bigBody {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* MAINHEADER */
+.mainHeader {
+  display: flex;
+}
+
+.myName {
+  margin-left: 20px;
+}
+
+.myName h2:hover {
+  letter-spacing: 3px;
+  color: rgb(67, 135, 135);
+  transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+  .mainHeader {
+    text-align: center;
+    display: block;
+  }
+}
+
+.myPicture {
+  width: 200px;
+  border-radius: 0%;
+  box-shadow: 6px 4px 18px 1px;
+}
+
+.myPicture:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* MAIN BODY */
+.bg-colorZero {
+  background-color: rgba(168, 216, 246, 0.83);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.back {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.bg-colorOne {
+  background-color: rgba(180, 211, 241, 0.83);
+  margin-top: 20px;
+}
+
+.bg-colorTwo {
+  background-color: rgba(244, 255, 211, 0.83);
+}
+
+.back p {
+  color: black;
+  margin-top: 0px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* LINKS */
+a {
+  color: rgb(40, 38, 38);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+.Submit a {
+  color: #ccc;
+}
+
+.Submit a:hover {
+  text-decoration: none;
+  color: rgb(46, 43, 43);
+}
+
+.Submit a:active {
+  color: black;
+}
+
+/* LISTS */
+
+.back li {
+  margin-bottom: 2px;
+}
+
+.link-list li {
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ccc;
+}
+
+.link-list h2 {
+  text-align: center;
+}
+
+/* CLICK BUTTOMS */
+.Submit h2 {
+  text-align: center;
+}
+
+.Submit p {
+  font-style: oblique;
+  /* text-align: center; */
+}
+
+.Submit label {
+  display: block;
+  font-size: 16px;
+}
+
+.Submit textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #ccc;
+  color: rgb(0, 0, 0);
+  padding: 15px 0 0 10px;
+  /* outline: none;  */
+  font-family: inherit;
+}
+
+.labelOne {
+  color: rgb(35, 108, 108);
+  cursor: pointer;
+}
+
+.labelOne:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.labelOne:active {
+  color: black;
+}
+
+.bnd {
+  background-color: rgb(166, 162, 162);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.bnd:hover {
+  opacity: 0.9;
+}
+.bnd:active {
+  color: whitesmoke;
+}

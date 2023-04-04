@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="styleLog.css" />
+  </head>
+  <body>
+    <div class="allBody">
+      <div class="navBar">
+        <a href="signup.html">Register</a>
+      </div>
+      <div>
+        <img
+          src="https://elcomercio.pe/resizer/Hjku5nZ74Lz0s6RDSDBDFq3yFpQ=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/TGIS7BTP2FDGLHM4G6UEKGE32I.jpg"
+          alt="Jesse Pinkman"
+        />
+      </div>
+      <div class="textAreas">
+        <h1>What Up <span class="theFuck">Biatch!</span></h1>
+        <form onsubmit="logIn()">
+          <label for="log-in">Insert your Username</label><br />
+          <input
+            type="text"
+            id="log-in"
+            minlength="3"
+            maxlength="12"
+            required
+          />
+          <br />
+          <label for="pass-word">Insert your password</label><br />
+          <input
+            type="password"
+            id="pass-word"
+            minlength="8"
+            maxlength="15"
+            required
+          />
+          <br />
+          <button type="reset" id="mySecBtn" onclick="logIn()">Log In</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

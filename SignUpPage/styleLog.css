@@ -1,0 +1,53 @@
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 1px 6px 13px;
+}
+
+body {
+  background-color: rgb(237, 237, 237);
+  color: black;
+  font-size: 18px;
+}
+
+.allBody {
+  text-align: center;
+}
+
+h1 {
+  margin: 15px;
+}
+
+.navBar {
+  text-align: end;
+}
+
+.theFuck {
+  font-size: smaller;
+  font-style: italic;
+  color: rgb(157, 157, 157);
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(57, 57, 57);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(77, 76, 76);
+}
